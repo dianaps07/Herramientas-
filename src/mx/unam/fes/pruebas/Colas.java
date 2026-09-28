@@ -48,7 +48,7 @@ public class Colas {
 	                int size = cola.getLongitud();
 	                boolean abrirCaja = false;
 	                
-	                // Técnica para iterar una cola personalizada: desencolar y volver a encolar
+	                // Desencolar y volver a encolar
 	                for (int i = 0; i < size; i++) {
 	                    Cliente c = (Cliente) cola.eliminar();
 	                    if (c.tiempoEnCola > 10) {
